@@ -44,6 +44,6 @@ jobs:
         sca_password: ${{ secrets.SCA_PASSWORD }}  
         incremental: false
         break_build: true
-        scanners: sca, sast
+        scanners: sast
         bug_tracker: GITHUBPULL
         params: --namespace=${{ github.repository_owner }} --repo-name=${{ github.event.repository.name }} --branch=${{ github.head_ref }} --merge-id=${{ github.event.number }} --cx-flow.thresholds.high=100 --cx-flow.thresholds.medium=100 --cx-flow.thresholds.low=500
