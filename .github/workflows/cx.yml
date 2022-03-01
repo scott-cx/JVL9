@@ -1,4 +1,4 @@
-# This is a basic workflow to create GitHub Issues using the Checkmarx CxFlow GitHub Action.  It runs on a pull-request to the main branch.
+# minor change to workflow
 #
 # The following GitHub Secrets must be first defined:
 #   - CHECKMARX_URL
